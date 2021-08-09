@@ -289,6 +289,10 @@ PRODUCT_PACKAGES += \
     TelephonyResSweet \
     WifiResSweet
 
+# Overlay-RRO
+PRODUCT_PACKAGES += \
+    SettingsOverlayRR
+
 # Perf
 PRODUCT_PACKAGES += \
     libqti-perfd-client
