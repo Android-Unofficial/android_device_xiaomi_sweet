@@ -73,7 +73,8 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     libdng_sdk.vendor:64 \
-    libpiex_shim
+    libpiex_shim \
+    GCamGo
 
 PRODUCT_PACKAGES += \
     Snap
