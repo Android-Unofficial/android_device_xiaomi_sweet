@@ -18,6 +18,9 @@ $(call inherit-product, vendor/octavi/config/common_full_phone.mk)
 OCTAVI_BUILD_TYPE := Official
 OCTAVI_MAINTAINER := Pratyaksh.Bharadwaj
 
+# Bootanimation
+TARGET_BOOT_ANIMATION_RES := 1080
+
 # Gapps
 TARGET_GAPPS_ARCH := arm64
 
