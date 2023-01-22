@@ -149,6 +149,9 @@ SYSTEM_EXT_PUBLIC_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/public
 TARGET_SEPOLICY_DIR := msmsteppe
 -include device/qcom/sepolicy_vndr-legacy-um/SEPolicy.mk
 
+# Sepolicy Neverallows
+SELINUX_IGNORE_NEVERALLOWS := true
+
 # Vendor security patch level
 VENDOR_SECURITY_PATCH := 2022-12-01
 
