@@ -1,4 +1,4 @@
-<compatibility-matrix version="2.0" type="framework">
+<device-matrix version="2.0" type="framework">
     <hal format="hidl" optional="true">
         <name>android.hardware.gnss</name>
         <version>1.0</version>
@@ -13,6 +13,14 @@
         <interface>
             <name>ISap</name>
             <instance>slot2</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>android.hardware.wifi</name>
+        <version>1.6</version>
+        <interface>
+            <name>IWifi</name>
+            <instance>default</instance>
         </interface>
     </hal>
     <hal format="hidl" optional="true">
