@@ -14,6 +14,10 @@ $(call inherit-product, device/xiaomi/sweet/device.mk)
 # Inherit some common OctaviOS stuff
 $(call inherit-product, vendor/octavi/config/common_full_phone.mk)
 
+# Octavi Stuff
+OCTAVI_BUILD_TYPE := Official
+OCTAVI_MAINTAINER := Pratyaksh.Bharadwaj
+
 # Device Identifer to be added after all inclusions
 PRODUCT_NAME := octavi_sweet
 PRODUCT_DEVICE := sweet
