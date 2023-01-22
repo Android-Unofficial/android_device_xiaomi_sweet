@@ -18,6 +18,9 @@ $(call inherit-product, vendor/octavi/config/common_full_phone.mk)
 OCTAVI_BUILD_TYPE := Official
 OCTAVI_MAINTAINER := Pratyaksh.Bharadwaj
 
+# Gapps
+TARGET_GAPPS_ARCH := arm64
+
 # Device Identifer to be added after all inclusions
 PRODUCT_NAME := octavi_sweet
 PRODUCT_DEVICE := sweet
