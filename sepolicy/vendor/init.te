@@ -1,2 +1,7 @@
 # Allow init to set attribute to sysfs_kprofiles
 allow init sysfs_kprofiles:file { setattr };
+
+# Dolby
+allow init vendor_data_file:file lock;
+allow init hal_audio_default:binder call;
+allow init platform_app:binder call;

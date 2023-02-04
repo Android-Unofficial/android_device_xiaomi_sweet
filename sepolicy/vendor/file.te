@@ -12,3 +12,6 @@ type sysfs_iio_devices, fs_type, sysfs_type;
 
 # KProfiles
 type sysfs_kprofiles, sysfs_type, fs_type;
+
+# Dolby
+type sysfs_kgsl, sysfs_type, fs_type;
