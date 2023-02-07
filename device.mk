@@ -273,12 +273,8 @@ PRODUCT_PACKAGES += \
 
 # Overlays
 PRODUCT_PACKAGES += \
+    overlay\
     ApertureOverlay\
-    CarrierConfigResSweet \
-    FrameworksResSweet \
-    SettingsResSweet \
-    SystemUIResSweet \
-    TelephonyResSweet \
     WifiResSweet
 
 # Perf
