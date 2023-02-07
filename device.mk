@@ -275,7 +275,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     overlay\
     ApertureOverlay\
-    WifiResSweet
 
 # Perf
 PRODUCT_PACKAGES += \
