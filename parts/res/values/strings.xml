@@ -18,6 +18,11 @@
     <!-- Ambient settings -->
     <string name="ambient_enable">Use ambient display</string>
 
+    <!-- Refresh rate -->
+    <string name="device_specific_settings_summary">Refresh rate configuration</string>
+    <string name="device_min_refresh_rate">Minimum Refresh Rate</string>
+    <string name="refresh_rate_tile_title">High Refresh Rate</string>
+
     <!-- DC Dimming settings -->
     <string name="dc_dimming_enable_title">Anti-Flicker Mode</string>
     <string name="dc_dimming_enable_summary">DC Dimming reduces eye strain in low light conditions but may result in reduced image quality and poor color production.</string>

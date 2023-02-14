@@ -24,6 +24,7 @@ import android.util.Log;
 
 import org.lineageos.settings.dirac.DiracUtils;
 import org.lineageos.settings.doze.DozeUtils;
+import org.lineageos.settings.utils.RefreshRateUtils;
 import org.lineageos.settings.haptic.HapticUtils;
 import org.lineageos.settings.thermal.ThermalUtils;
 
@@ -43,6 +44,10 @@ public class BootCompletedReceiver extends BroadcastReceiver {
         } catch (Exception e) {
             Log.d(TAG, "Dirac is not present in system");
         }
+
+        // Refresh rate
+        RefreshRateUtils.setFPS(RefreshRateUtils.getRefreshRate(context));
+
         DozeUtils.checkDozeService(context);
         HapticUtils.restoreLevel(context);
         ThermalUtils.startService(context);
