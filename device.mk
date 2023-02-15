@@ -412,5 +412,8 @@ PRODUCT_BUILD_SUPER_PARTITION := false
 # Enable Dynamic Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
+# Inherit MIUI Camera
+$(call inherit-product, vendor/xiaomi/miuicamera/config.mk)
+
 # Inherit vendor
 $(call inherit-product, vendor/xiaomi/sweet/sweet-vendor.mk)
