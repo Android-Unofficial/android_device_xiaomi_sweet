@@ -273,8 +273,7 @@ PRODUCT_PACKAGES += \
 
 # Overlays
 PRODUCT_PACKAGES += \
-    overlay\
-    ApertureOverlay\
+    overlay
 
 # Perf
 PRODUCT_PACKAGES += \
