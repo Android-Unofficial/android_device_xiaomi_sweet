@@ -570,6 +570,13 @@ vendor/lib64/soundfx/libswdap.so
 vendor/lib64/libdapparamstorage.so
 vendor/lib64/libstagefrightdolby.so
 
+# Dolby frm - motorola/sofia_retail/sofia:10/QPM30.80-13-2/0f2407:user/release-keys
+vendor/bin/hw/vendor.dolby.hardware.dms@1.0-service
+vendor/etc/init/vendor.dolby.hardware.dms@1.0-service.rc
+vendor/lib/vendor.dolby.hardware.dms@1.0.so
+vendor/lib64/vendor.dolby.hardware.dms@1.0.so
+vendor/lib64/vendor.dolby.hardware.dms@1.0-impl.so
+
 # Dolby from - motorola/sofiap_ao_eea/sofiap_sprout:12/S0PR32M.44-11-8/4e5071:user/release-keys
 system_ext/etc/permissions/com.motorola.dolby.dolbyui.xml|d5c25b2522094346257a5ff0f4317c992b54d1fc
 system_ext/etc/permissions/com.motorola.motosignature.xml|efb406e4db9b9dddedd6fb68ad678153d3089417
