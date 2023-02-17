@@ -44,10 +44,10 @@
             </intent-filter>
         </receiver>
 
-        <activity
-            android:name=".DevicePreferenceActivity"
-            android:label="@string/device_specific_settings_title"
-            android:theme="@style/Theme.Main">
+         <!-- <activity
+            android:name=".MainSettingsActivity"
+            android:label="@string/device_settings_title"
+            android:theme="@style/Theme.SubSettingsBase">
             <intent-filter>
                 <action android:name="com.android.settings.action.IA_SETTINGS" />
             </intent-filter>
@@ -56,8 +56,8 @@
                 android:value="com.android.settings.category.ia.display" />
             <meta-data
                 android:name="com.android.settings.summary"
-                android:resource="@string/device_specific_settings_summary" />
-        </activity>
+                android:resource="@string/device_settings_summary" />
+        </activity> -->
 
         <activity
             android:name=".dirac.DiracActivity"
