@@ -72,6 +72,9 @@ PRODUCT_PACKAGES += \
     libdng_sdk.vendor:64 \
     libpiex_shim
 
+PRODUCT_PACKAGES += \
+    Snap
+
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.camera.flash-autofocus.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.camera.flash-autofocus.xml \
     frameworks/native/data/etc/android.hardware.camera.front.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.camera.front.xml \
@@ -410,9 +413,6 @@ PRODUCT_BUILD_SUPER_PARTITION := false
 
 # Enable Dynamic Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
-
-# Inherit MIUI Camera
-$(call inherit-product, vendor/xiaomi/miuicamera/config.mk)
 
 # Inherit vendor
 $(call inherit-product, vendor/xiaomi/sweet/sweet-vendor.mk)
