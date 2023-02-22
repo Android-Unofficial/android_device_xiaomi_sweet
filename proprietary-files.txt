@@ -553,13 +553,6 @@ vendor/etc/dsi_k6_38_0c_0a_fhd_dsc_video_display_mi.xml
 vendor/etc/hdr_config.cfg
 vendor/etc/sdr_config.cfg
 
-# Dolby frm - motorola/sofia_retail/sofia:10/QPM30.80-13-2/0f2407:user/release-keys
-vendor/bin/hw/vendor.dolby.hardware.dms@1.0-service
-vendor/etc/init/vendor.dolby.hardware.dms@1.0-service.rc
-vendor/lib/vendor.dolby.hardware.dms@1.0.so
-vendor/lib64/vendor.dolby.hardware.dms@1.0.so
-vendor/lib64/vendor.dolby.hardware.dms@1.0-impl.so
-
 # eSE
 vendor/bin/hw/vendor.qti.esepowermanager@1.1-service
 vendor/etc/init/vendor.qti.esepowermanager@1.1-service.rc
