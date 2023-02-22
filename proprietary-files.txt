@@ -553,25 +553,6 @@ vendor/etc/dsi_k6_38_0c_0a_fhd_dsc_video_display_mi.xml
 vendor/etc/hdr_config.cfg
 vendor/etc/sdr_config.cfg
 
-# Dolby from - Redmi/sweetin/sweetin:12/RKQ1.210614.002/V13.0.3.0.SKFINXM:user/release-keys
-system_ext/etc/permissions/com.dolby.daxservice.xml
--system_ext/priv-app/daxService/daxService.apk
-vendor/bin/hw/vendor.dolby.hardware.dms@2.0-service
-vendor/etc/dolby/dax-default.xml
-vendor/etc/init/vendor.dolby.hardware.dms@2.0-service.rc
-vendor/lib/soundfx/libhwdap.so
-vendor/lib/soundfx/libswdap.so
-vendor/lib/vendor.dolby.hardware.dms@2.0.so
-vendor/lib/libdapparamstorage.so
-vendor/lib/libstagefright_soft_ddpdec.so
-vendor/lib/libstagefrightdolby.so
-vendor/lib64/vendor.dolby.hardware.dms@2.0.so
-vendor/lib64/vendor.dolby.hardware.dms@2.0-impl.so
-vendor/lib64/soundfx/libhwdap.so
-vendor/lib64/soundfx/libswdap.so
-vendor/lib64/libdapparamstorage.so
-vendor/lib64/libstagefrightdolby.so
-
 # Dolby frm - motorola/sofia_retail/sofia:10/QPM30.80-13-2/0f2407:user/release-keys
 vendor/bin/hw/vendor.dolby.hardware.dms@1.0-service
 vendor/etc/init/vendor.dolby.hardware.dms@1.0-service.rc
