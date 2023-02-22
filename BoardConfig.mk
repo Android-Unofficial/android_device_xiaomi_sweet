@@ -11,6 +11,9 @@ BUILD_BROKEN_DUP_SYSPROP := true
 BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
 BUILD_BROKEN_USES_BUILD_COPY_HEADERS := true
 
+# MIUI Camera
+-include vendor/xiaomi/sweet-miuicamera/products/board.mk
+
 # Architecture
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-a
