@@ -5,4 +5,13 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lmodroid_sweet.mk
+    $(LOCAL_DIR)/lmodroid_sweet.mk \
+    $(LOCAL_DIR)/calyx_sweet.mk
+
+COMMON_LUNCH_CHOICES := \
+    lmodroid_sweet-user \
+    lmodroid_sweet-userdebug \
+    lmodroid_sweet-eng \
+    calyx_sweet-user \
+    calyx_sweet-userdebug \
+    calyx_sweet-eng
