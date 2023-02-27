@@ -69,8 +69,13 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     libdng_sdk.vendor:64 \
-    libpiex_shim \
-    GCamGo
+    libpiex_shim
+
+ifeq ($(wildcard vendor/xiaomi/sweet-miuicamera/products/miuicamera.mk),)
+    PRODUCT_PACKAGES += GCamGo
+else
+    $(call inherit-product, vendor/xiaomi/sweet-miuicamera/products/miuicamera.mk)
+endif
 
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.camera.flash-autofocus.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.camera.flash-autofocus.xml \
@@ -428,4 +433,4 @@ PRODUCT_USE_DYNAMIC_PARTITIONS := true
 $(call inherit-product, vendor/xiaomi/sweet/sweet-vendor.mk)
 
 # Inherit MIUI Camera
-$(call inherit-product-if-exists, vendor/xiaomi/sweet-miuicamera/products/miuicamera.mk)
+# $(call inherit-product-if-exists, vendor/xiaomi/sweet-miuicamera/products/miuicamera.mk)
