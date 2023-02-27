@@ -12,7 +12,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/xiaomi/sweet/device.mk)
 
 # Inherit some common LineageOS stuff
-$(call inherit-product, vendor/potato/config/common.mk)
+$(call inherit-product, vendor/potato/config/common_full_phone.mk)
 
 PRODUCT_NAME := potato_sweet
 PRODUCT_DEVICE := sweet
