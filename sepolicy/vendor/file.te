@@ -9,3 +9,6 @@ type proc_sched_energy_aware, proc_type, fs_type;
 
 # Proximity
 type sysfs_iio_devices, fs_type, sysfs_type;
+
+# KProfiles
+type sysfs_kprofiles, sysfs_type, fs_type;
