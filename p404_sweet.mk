@@ -12,7 +12,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/xiaomi/sweet/device.mk)
 
 # Inherit some common LineageOS stuff
-$(call inherit-product, vendor/404/config/common.mk)
+$(call inherit-product, vendor/404/configs/common.mk)
 
 PRODUCT_NAME := p404_sweet
 PRODUCT_DEVICE := sweet
@@ -20,11 +20,18 @@ PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := Redmi Note 10 Pro
 PRODUCT_MANUFACTURER := Xiaomi
 
+# Platform
+MSMSTEPPE := sm6150
+TARGET_BOARD_PLATFORM := $(MSMSTEPPE)
+
 # Set Boot Animination Resolution
 TARGET_BOOT_ANIMATION_RES := 1080
 
 # Include GAPPS
 WITH_GAPPS := true
+
+# P404
+P404_BUILDTYPE := UNOFFCIAL-KernelPanix
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 

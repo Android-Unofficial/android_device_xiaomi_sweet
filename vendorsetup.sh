@@ -25,3 +25,10 @@ if [ -d "$KERNELDIR" ]; then
 else
   git clone -b A13 --single-branch https://github.com/Android-Unofficial/android_kernel_xiaomi_sweet.git kernel/xiaomi/sweet
 fi
+
+PIXELDIR="hardware/google/pixel"
+if [ -d "$PIXELDIR" ]; then
+  echo "Installing Pixel Hardware in ${DIR}..."
+else
+  git clone -b lineage-20.0 --single-branch https://github.com/LineageOS/android_hardware_google_pixel.git hardware/google/pixel
+fi
