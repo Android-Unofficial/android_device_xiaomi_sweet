@@ -1,10 +1,13 @@
 #!/bin/bash
 
-DIR="packages/apps/KProfiles/"
-if [ -d "$DIR" ]; then
-  # Take action if $DIR exists. #
+KERNELSU="system/extras/su"
+if [ -d "$KERNELSU" ]; then
+  rm -rf system/extras/su
+fi
+
+KPROFILEDIR="packages/apps/KProfiles/"
+if [ -d "$KPROFILEDIR" ]; then
   echo "Installing config files in ${DIR}..."
 else
-  ###  Control will jump here if $DIR does NOT exists ###
   git clone https://github.com/CannedShroud/android_packages_apps_KProfiles packages/apps/KProfiles
 fi
