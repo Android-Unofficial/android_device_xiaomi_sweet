@@ -9,7 +9,8 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/calyx_sweet.mk \
     $(LOCAL_DIR)/potato_sweet.mk \
     $(LOCAL_DIR)/p404_sweet.mk \
-    $(LOCAL_DIR)/cipher_sweet.mk
+    $(LOCAL_DIR)/cipher_sweet.mk \
+    $(LOCAL_DIR)/cherish_sweet.mk
 
 COMMON_LUNCH_CHOICES := \
     lmodroid_sweet-user \
@@ -26,4 +27,7 @@ COMMON_LUNCH_CHOICES := \
     p404_sweet-eng \
     cipher_sweet-user \
     cipher_sweet-userdebug \
-    cipher_sweet-eng
+    cipher_sweet-eng \
+    cherish_sweet-user \
+    cherish_sweet-userdebug \
+    cherish_sweet-eng
