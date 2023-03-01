@@ -37,5 +37,5 @@ HARDXIAODIR="hardware/xiaomi"
 if [ -d "$HARDXIAODIR" ]; then
   echo "Installing Hardware Xiaomi in ${DIR}..."
 else
-  git clone -b lineage-20.0 --single-branch https://github.com/LineageOS/android_hardware_xiaomi.git hardware/xiaomi
+  git clone -b lineage-20 --single-branch https://github.com/LineageOS/android_hardware_xiaomi.git hardware/xiaomi
 fi
