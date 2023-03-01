@@ -32,3 +32,10 @@ if [ -d "$PRDSDIR" ]; then
 else
   git clone -b lineage-20.0 --single-branch https://github.com/LineageOS/android_packages_resources_devicesettings.git packages/resources/devicesettings
 fi
+
+HARDXIAODIR="hardware/xiaomi"
+if [ -d "$HARDXIAODIR" ]; then
+  echo "Installing Hardware Xiaomi in ${DIR}..."
+else
+  git clone -b lineage-20.0 --single-branch https://github.com/LineageOS/android_hardware_xiaomi.git hardware/xiaomi
+fi
