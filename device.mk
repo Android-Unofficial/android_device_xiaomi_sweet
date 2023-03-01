@@ -282,8 +282,8 @@ PRODUCT_PACKAGES += \
     android.hardware.neuralnetworks@1.3.vendor
 
 # Overlay
-PRODUCT_PACKAGES += \
-    overlay
+# PRODUCT_PACKAGES += \
+#     overlay
 
 # Overlays
 PRODUCT_PACKAGES += \
