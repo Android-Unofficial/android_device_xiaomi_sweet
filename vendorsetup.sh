@@ -18,8 +18,8 @@ KERNELDIR="kernel/xiaomi/sweet"
 if [ -d "$KERNELDIR" ]; then
   echo "Installing Kernel in ${DIR}..."
 else
-  git clone -b A13 --single-branch https://github.com/Android-Unofficial/android_kernel_xiaomi_sweet.git kernel/xiaomi/sweet
-  # git clone -b aghisna-13 --single-branch https://github.com/RooGhz720/Aghisna_Sweet_Kernel.git kernel/xiaomi/sweet
+  # git clone -b A13 --single-branch https://github.com/Android-Unofficial/android_kernel_xiaomi_sweet.git kernel/xiaomi/sweet
+  git clone -b aghisna-13 --single-branch https://github.com/RooGhz720/Aghisna_Sweet_Kernel.git kernel/xiaomi/sweet
 fi
 
 PRDSDIR="packages/resources/devicesettings"
